@@ -1,0 +1,68 @@
+body {
+    color: #000;
+    font-family: Inter;
+}
+
+.katherine-nav {
+    float: left;
+}
+
+.top-nav {
+    float: right;
+    border: 1px solid red;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+}
+
+.navbar {
+    text-align: center;
+    padding: 20px;
+}
+
+#katherine {
+    text-align: center;
+}
+
+.my-major {
+    font-size: 20px;
+    text-align: center;
+    border:#000;
+}
+
+
+h1 {
+    font-size: 60px;
+}
+
+section {
+    font-size: 14px;
+}
+
+li {
+    list-style-type: disc;
+  }
+  
+li li {
+    list-style-type: circle;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    color: #00247D;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+figure {
+    float: left;
+    text-align: center;
+    font-style: italic;
+    padding: 0.5em;
+  }
