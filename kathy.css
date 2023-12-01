@@ -4,29 +4,26 @@ body {
 }
 
 .katherine-nav {
-    float: left;
-    border: 1px solid red;
     margin: 5px;
     padding: 5px;
     width: 100px;
     display: inline-block;
 }
 
-.top-nav {
-    float: right;
-    border: 1px solid red;
-    margin: 5px;
-    padding: 5px;
-    width: 100px;
-    display: inline-block;
-}
-
-.navbar {
-    text-align: center;
-    /* display: inline-block; */
+nav {
     padding: 10px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    margin: 0 10px;
+}
+
 
 #katherine {
     text-align: center;
