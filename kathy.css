@@ -38,14 +38,27 @@ body {
     border:#000;
 }
 
+/* .image-left {
+    float: left;
+    margin-right: 20px;
+} */
+
+.indent-list {
+    margin-left: 20px;
+}
+
+.text {
+    padding: 2em;
+}
+
 
 h1 {
     font-size: 60px;
 }
 
-section {
+/* section {
     font-size: 14px;
-}
+} */
 
 li {
     list-style-type: disc;
@@ -68,9 +81,3 @@ img {
     height: 300px;
 }
 
-figure {
-    float: left;
-    text-align: center;
-    font-style: italic;
-    padding: 0.5em;
-  }
