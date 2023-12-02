@@ -3,13 +3,6 @@ body {
     font-family: Inter;
 }
 
-.katherine-nav {
-    margin: 5px;
-    padding: 5px;
-    width: 100px;
-    display: inline-block;
-}
-
 nav {
     padding: 10px;
     display: flex;
@@ -25,8 +18,44 @@ nav a {
 }
 
 
-#katherine {
-    text-align: center;
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+li {
+    list-style-type: disc;
+}
+  
+a {
+    text-decoration: none;
+}
+
+strong {
+    color: #00247D;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.katherine-nav {
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    display: inline-block;
 }
 
 .my-major {
@@ -44,37 +73,31 @@ nav a {
     margin-left: 20px;
 }
 
-.text {
+.text-container {
     padding: 2em;
 }
 
-
-h1 {
-    font-size: 60px;
+.title {
+    text-align: center;
 }
 
-/* section {
-    font-size: 14px;
-} */
-
-li {
-    list-style-type: disc;
-  }
-  
-li li {
-    list-style-type: circle;
+.project-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
 }
 
-a {
-    text-decoration: none;
+/* Style for each box */
+.box {
+    width: 500px;
+    height: 200px;
+    border: solid;
+    border-color: navy;
+    margin: 10px; /* Add spacing between boxes */
+    text-align: center;
+    line-height: 100px; /* Center content vertically */
 }
 
-strong {
-    color: #00247D;
+#katherine {
+    text-align: center;
 }
-
-img {
-    width: 300px;
-    height: 300px;
-}
-
