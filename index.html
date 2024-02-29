@@ -22,8 +22,11 @@
 
     <!--Start editing below-------------------->
     <main>
-        <h1 id="katherine">Hi,<br>I'm Katherine</h1>
 
+        <div class="container">
+            <h1 id="katherine">Hi,<br>I'm Katherine</h1>
+        </div>
+        
         <div>
 
             <p class="my-major">Computer Science Major<br>and Psychology Minor<br>at <strong>Wellesley College</strong>.</p>
@@ -31,12 +34,35 @@
             <br>
 
             <p class="my-major">To learn more about me,<br>
-            <a href="about.html"><button type="button">Click Here</button></a></p>
+            <a href="about.html"><button type="button">About Katherine</button></a></p>
             
 
         </div>
 
+        <div class="logos">
+            <button id="email"><img src="images/email.png" alt="email logo"></button>
+            <!-- Email pop-up -->
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Email me at: <b>ky107@wellesley.edu</b> or <b>katherinehyang@gmail.com</b></p>
+                    </div>                
+                </div>
+            <a href="http://github.com/katherinehyang"><img src="images/github-logo.png" alt="github logo"></a>
+            <a href="http://www.linkedin.com/in/katherinehyang/"><img src="images/linkedin.png" alt="linkedin logo"></a>
+        </div>
+
+        <!-- <div class="footer">
+            <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
+            <br><a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat icons created by Dave Gandy - Flaticon</a>
+            <br><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a>
+        </div> -->
+
     </main>
+
+<!-- JavaScript -------------------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="pop-up.js"></script>
 
 </body>
 </html>
