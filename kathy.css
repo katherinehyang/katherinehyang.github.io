@@ -53,6 +53,7 @@ strong {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: red; just for reference */
 }
 
 .katherine-nav {
@@ -68,17 +69,8 @@ strong {
     border:#000;
 }
 
-/* .image-left {
-    float: left;
-    margin-right: 20px;
-} */
-
 .indent-list {
     margin-left: 20px;
-}
-
-.text-container {
-    padding: 2em;
 }
 
 .title {
@@ -125,6 +117,11 @@ strong {
 #kathy-img {
     width: 300px;
     height: 300px;
+}
+
+#description {
+    height: 200px;
+    width: 50%;
 }
 
 
