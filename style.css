@@ -129,6 +129,14 @@ h2 {
     transform: none;
 }
 
+.rotator {
+  margin: 14px 0 0;
+  font-size: clamp(26px, 4vw, 40px);
+  font-weight: 700;
+  letter-spacing: -.02em;
+  white-space: nowrap;
+}
+
 #word {
     display: inline-block;
     color: var(--blue);
@@ -154,20 +162,23 @@ h2 {
 }
 
 .tile {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    text-align: center;
     text-decoration: none;
     color: var(--paper);
     aspect-ratio: 1;
     background: var(--c);
     position: relative;
-    display: grid;
-    place-items: center;
     transition: transform .15s ease-out, border-radius .4s;
-    transform: perspective(700px) rotateX(var(--rx, 0)) rotateY(var(--ry, 0));
+    transform: perspective(700px) rotateX(var(--rx,0)) rotateY(var(--ry,0));
 }
 
 .tile svg {
-    width: 46%;
+    width: 42%;
     fill: none;
     stroke: currentColor;
     stroke-width: 3;
@@ -178,10 +189,9 @@ h2 {
 }
 
 .tile b {
-    position: absolute;
-    left: 16px;
-    bottom: 12px;
-    font-size: clamp(16px, 2vw, 22px);
+    font-size: clamp(15px, 1.9vw, 21px);
+    line-height: 1.1;
+    padding: 0 10px;
 }
 
 .t1 {
