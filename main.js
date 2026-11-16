@@ -34,7 +34,7 @@ const photos = [
     { src: "", alt: "Photo 6", cat: "Film", c: "#f2b632", h: 360 }
 ];
 
-const words = ["build interfaces.", "take photographs.", "edit video.", "study psychology."];
+const words = ["write code.", "take photographs.", "edit videos."];
 
 /* --------------------------- */
 const page = location.pathname.split("/").pop() || "index.html";

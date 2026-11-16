@@ -101,7 +101,7 @@ section,
 }
 
 h1 {
-    font: 700 clamp(54px, 11vw, 140px)/.92 var(--font);
+    font: 700 clamp(40px, 6vw, 80px)/.92 var(--font);
     letter-spacing: -.035em;
     margin: 0;
 }
