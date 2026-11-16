@@ -1,59 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-    <link rel="stylesheet" href="kathy.css">
-    <meta name=author content="Katherine Yang">
-    <title>Katherine Yang</title>
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Blue Ridge Dynamics · Katherine Yang</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23f2b632%22/><circle cx=%2250%22 cy=%2250%22 r=%2230%22 fill=%22%232b50c8%22/></svg>">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-    <nav>
-        <a href="index.html" class="katherine-nav">katherine</a>
-        
-        <div>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-        </div>
-    </nav>
+    <body>
+    <!-- Nav, footer and progress bar are added by main.js -->
 
-    <!--Start editing below-------------------->
-    <div class="title">
-        <img href="images/BRDLogo.jpg" alt="BRD logo">
-        <h2>Blue Ridge Dynamics, Inc.</h2>
-        <p>Summer '23 Internship Project</p>
-    </div>
+    <!-- Red hero banner -->
+        <div class="cs-hero">
+            <div>
+                <p>Case study</p>
+                    <h1 style="font-size: clamp(44px, 8vw, 100px)">Blue Ridge Dynamics</h1>
 
-    <div class="">
-        <div>
-            <p>Over the summer of 2023, I worked as a UI/UX Design and Software Developer Intern 
-            at Blue Ridge Dynamics, Inc.</p>
-        </div>
-        
-        <br>
-
-        <div>
-            <h3><b>UI/UX Intern</b></h3>
-            <p>As a UI/UX Intern, I designed a prototype web application.</p>
+                    <div class="facts">
+                        <p><small>Role</small>UI/UX and software intern</p>
+                        <p><small>When</small>Summer 2023</p>
+                        <p><small>Tools</small>Figma, Python</p>
+                    </div>
+            </div>
         </div>
 
-        <div>
-            <p>Here is the Figma page (<a href="https://www.figma.com/file/s1RxKgtT6u0VSgVtkvLQjc/BRD-Summer-'23-Project?type=design&node-id=0%3A1&mode=design&t=Y1cAwlrH9asqWeh3-1">Link to Figma</a>):</p>
-            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fs1RxKgtT6u0VSgVtkvLQjc%2FBRD-Summer-'23-Project%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DY1cAwlrH9asqWeh3-1" allowfullscreen></iframe>
-        </div>
+        <main class="wrap cs">
+            <h2>The problem</h2>
+            <p>Describe what the team needed and who it was for.</p>
 
-        <br>
-        <br>
-        <br>
+            <h2>Design</h2>
+            <p>
+                I designed a prototype web application. Explore it below, and add
+                2 or 3 decisions you made and why.
+            </p>
 
-        <div>
-            <h3><b>SDE Intern</b></h3>
-            <p>As a SDE Intern, I developed and tested text summarizers and sentiment analyses.</p>
-        </div>
-    </div>
+            <iframe
+                class="frame"
+                title="Figma prototype"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fs1RxKgtT6u0VSgVtkvLQjc%2FBRD-Summer-'23-Project%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DY1cAwlrH9asqWeh3-1"
+                allowfullscreen>
+            </iframe>
 
-</body>
+            <h2>Engineering</h2>
+            <p>
+                I developed and tested text summarizers and sentiment analyses.
+                Add the approach, what worked and the results.
+            </p>
+
+            <h2>What I learned</h2>
+            <p>Add your takeaways.</p>
+
+            <a class="next" href="projects.html">All projects →</a>
+        </main>
+
+        <script src="main.js"></script>
+    </body>
 </html>

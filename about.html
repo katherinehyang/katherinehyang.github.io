@@ -1,62 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-    <link rel="stylesheet" href="kathy.css">
-    <meta name=author content="Katherine Yang">
-    <title>About Katherine</title>
-</head>
-<body>
-
-    <nav>
-        <a href="index.html" class="katherine-nav">katherine</a>
-        
-        <div>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-        </div>
-    </nav>
-
-    <!--Start editing below-------------------->
-
-    <main>
-        <div class="container">
-            <div>
-                <figure>
-                    <img id="kathy-img" src="images/kathy_pic.jpg" alt="Photo of Kathy">
-                </figure>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23f2b632%22/><circle cx=%2250%22 cy=%2250%22 r=%2230%22 fill=%22%232b50c8%22/></svg>">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>About · Katherine Yang</title>
+    </head>
+    <body>
+        <main>
+            <div class="wrap about">
+                <div class="pic"><img src="images/kathy_pic.jpg" alt="Portrait of Katherine" onerror="this.remove()"></div>
+                <div>
+                    <h2>Hey, I'm Katherine.</h2>
+                    <p class="lead">I study computer science and psychology at Wellesley College (class of ２０２６). I like making things people can see and use, whether that's an interface, a photo or a short film. I'm looking for software engineering roles.</p>
+                    <div class="skills">
+                        <span style="--c:#2b50c8">Front-end</span>
+                        <span style="--c:#d8482f">Machine learning</span>
+                        <span style="--c:#3f9a8c">Figma</span>
+                        <span style="--c:#1b2340">Python</span>
+                        <span style="--c:#f2b632;color:#1b2340">Java</span>
+                    </div>
+                    <div style="margin-top:40px">
+                    <details open>
+                        <summary>How I started</summary>
+                        <p>Kode With Klossy's Web Development program, the summer before my senior year of high school.</p></details>
+                    <details>
+                        <summary>Wellesley College</summary>
+                        <p>B.A. in Computer Science, minor in Psychology. Add the courses you are proudest of here, such as Algorithms, Data Structures and Databases with Web Interfaces.</p></details>
+                    <details>
+                        <summary>Blue Ridge Dynamics, 2023</summary>
+                        <p>UI/UX and software developer intern. <a href="brd.html">Read the case study.</a></p></details>
+                    <details>
+                        <summary>Machine learning</summary>
+                        <p>eCornell certificate in Machine Learning Foundations.</p></details>
+                    </div>
+                </div>
             </div>
-            
-            <div id="description">
-                <h2>Hey, this is Katherine!</h2>
+        </main>
 
-                    <p>I am in the Class of 2026 at Wellesley College as a Computer Science Major and Psychology Minor. 
-                        My experience lies in <b>Front-End Development</b> and I am exploring my interests in <b>Machine Learning</b>. I first 
-                        became involved in programming after participating in Kode With Klossy's Web Development curriculum 
-                        the summer before my senior year of high school. <br><br>
-                        Currently, I am looking for Software Engineering internships for Summer 2025.
-                        Relevant courses include:</p>
-                        <ul class="indent-list">
-                            <li>eCornell certificate in Machine Learning Foundations</li>
-                            <br>
-                            <li>CS 304: Databases with Web Interfaces (in progress)</li>
-                            <li>CS 235: Theory of Computation (in progress)</li>
-                            <br>
-                            <li>CS 231: Fundamentals of Algorithms</li>                            
-                            <li>CS 204: Into to Web Development</li>
-                            <li>CS 230: Data Structures (in Java)</li>
-                            <li>CS 111: Computer Programming and Problem Solving (in Python)</li>
-                            <li>MATH 225: Combinatorics and Graph Theory</li>
-                        </ul>
-            </div>
-        </div>
-
-
-    </main>
-
-
-</body>
-</html>
+<script src="main.js"></script></body></html>

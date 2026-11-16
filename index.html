@@ -1,68 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-    <link rel="stylesheet" href="kathy.css">
-    <meta name=author content="Katherine Yang">
-    <title>Katherine Yang</title>
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23f2b632%22/><circle cx=%2250%22 cy=%2250%22 r=%2230%22 fill=%22%232b50c8%22/></svg>">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Katherine Yang</title>
+        <meta name="description" content="Katherine Yang: software, design, photography and video.">
+    </head>
+    <body>
+        <main>
+            <section style="padding-bottom:0">
+                <h1>Katherine<br>Yang</h1>
+                <p class="lead">Computer science and psychology at Wellesley College. I <span id="word">build interfaces.</span></p>
+            </section>
+            <nav class="tiles" aria-label="Sections">
+                <a class="tile t1" href="projects.html">
+                    <svg viewBox="0 0 64 64" aria-hidden="true">
+                        <rect x="12" y="14" width="40" height="26" rx="3"/>
+                        <path d="M6 48h52l-4-8H10zM26 22l-6 5 6 5M38 22l6 5-6 5"/>
+                    </svg>
+                    <b>Projects</b>
+                </a>
+                <a class="tile t2" href="#photo">
+                    <svg viewBox="0 0 64 64" aria-hidden="true">
+                        <rect x="6" y="20" width="52" height="34" rx="5"/>
+                        <path d="M22 20l3-7h14l3 7"/><circle cx="32" cy="37" r="9"/>
+                    </svg>
+                    <b>Photo</b>
+                </a>
+                <a class="tile t3" href="#film"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="8" y="28" width="48" height="26" rx="3"/><path d="M8 28L14 14l12 4-5 10M24 18l12 4-5 10M38 22l12 4-4 6M29 36l10 6-10 6z"/></svg><b>Film</b></a>
+                <a class="tile t4" href="about.html"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="22"/><path d="M24 27v1M40 27v1M22 38c5 7 15 7 20 0"/></svg><b>About</b></a>
+            </nav>
+    <div class="marquee" aria-hidden="true"><div><span>Front-end</span><span>Figma</span><span>Photography</span><span>Machine learning</span><span>Video editing</span><span>Python</span><span>Psychology</span><span>Java</span></div></div>
+    <section id="work">
+        <h2>Recent work</h2>
+        <div class="work" id="workGrid"></div>
+    </section>
+    <section id="photo">
+        <h2>Photography</h2>
+        <div class="chips" id="chips" role="group" aria-label="Filter photos"></div>
+        <div class="gallery" id="gallery"></div>
+    </section>
+    <section id="film">
+        <h2>Film</h2>
+        <!-- Replace with: <iframe src="https://player.vimeo.com/video/YOUR_ID" allowfullscreen loading="lazy" style="width:100%;aspect-ratio:16/9;border:0;margin-top:28px"></iframe> -->
+        <div class="reel">Your Vimeo or YouTube embed goes here.</div>
+    </section>
+</main>
+<dialog id="pd">
+    <div class="bar" id="pdBar"></div>
+    <button class="x" aria-label="Close">×</button>
+    <div class="in" id="pdBody"></div>
+</dialog>
+<dialog id="lb">
+    <div id="lbImg"></div>
+    <div class="nav">
+        <button id="prev">Previous</button>
+        <button id="close">Close</button>
+        <button id="next">Next</button>
+    </div>
+</dialog>
 
-    <nav>
-        <a href="index.html" class="katherine-nav">katherine</a>
-        
-        <div>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-        </div>
-    </nav>
-
-    <!--Start editing below-------------------->
-    <main>
-
-        <div class="container">
-            <h1 id="katherine">Hi,<br>I'm Katherine</h1>
-        </div>
-        
-        <div>
-
-            <p class="my-major">Computer Science Major<br>and Psychology Minor<br>at <strong>Wellesley College</strong>.</p>
-
-            <br>
-
-            <p class="my-major">To learn more about me,<br>
-            <a href="about.html"><button type="button">About Katherine</button></a></p>
-            
-
-        </div>
-
-        <div class="logos">
-            <button id="email"><img src="images/email.png" alt="email logo"></button>
-            <!-- Email pop-up -->
-                <div id="myModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <p>Email me at: <b>ky107@wellesley.edu</b> or <b>katherinehyang@gmail.com</b></p>
-                    </div>                
-                </div>
-            <a href="http://github.com/katherinehyang"><img src="images/github-logo.png" alt="github logo"></a>
-            <a href="http://www.linkedin.com/in/katherinehyang/"><img src="images/linkedin.png" alt="linkedin logo"></a>
-        </div>
-
-        <!-- <div class="footer">
-            <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
-            <br><a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat icons created by Dave Gandy - Flaticon</a>
-            <br><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a>
-        </div> -->
-
-    </main>
-
-<!-- JavaScript -------------------->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="pop-up.js"></script>
-
-</body>
-</html>
+<script src="main.js"></script></body></html>

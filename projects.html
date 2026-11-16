@@ -1,40 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-    <link rel="stylesheet" href="kathy.css">
-    <meta name=author content="Katherine Yang">
-    <title>Projects</title>
-</head>
-<body>
-
-    <nav>
-        <a href="index.html" class="katherine-nav">katherine</a>
-        
-        <div>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-        </div>
-    </nav>
-
-    <!--Start editing below-------------------->
-    <div class="text-container">
-        <h2>Projects</h2>
-
-        <div class="project-container">
-           <a href="brd.html"><button type="button" class="box">Blue Ridge Dynamics, Inc. Internship</button></a>
-            
-        
-            <a href=""><button type="button" class="box">My Personal Website (you're looking at it right now!)</button></a>
-        
-            <div class="box">Box 3</div>
-        </div>
-        
-
-    </div>
-
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23f2b632%22/><circle cx=%2250%22 cy=%2250%22 r=%2230%22 fill=%22%232b50c8%2２/></svg>">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Projects · Katherine Yang</title>
+    </head>
+    <body>
+        <main>
+            <section>
+                <h2>Projects</h2>
+                <p class="lead">Select a project for the story behind it.</p>
+                <div class="chips" id="projChips" role="group" aria-label="Filter projects"></div>
+                <div class="work" id="workGrid"></div>
+            </section>
+        </main>
+        <dialog id="pd">
+            <div class="bar" id="pdBar"></div>
+            <button class="x" aria-label="Close">×</button>
+            <div class="in" id="pdBody"></div>
+        </dialog>
+        <script src="main.js"></script>
+    </body>
 </html>
